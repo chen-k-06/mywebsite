@@ -1,0 +1,53 @@
+/* Home Component Styles */
+
+/* General Home container styling */
+#Home {
+  margin-top: 350px;
+  /* Space from the top */
+  margin-bottom: 100px;
+  /* Space from the bottom */
+}
+
+/* Heading styles for the Home page */
+#Home h1 {
+  font-size: 5rem;
+  /* Adjust size of main heading */
+  color: white;
+  text-align: center;
+  /* Center the text */
+}
+
+#Home h2 {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#Home button {
+  color: rgb(102, 0, 51);
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: block;
+  margin: 20px auto;
+  /* Center the button horizontally */
+}
+
+#Home button:hover {
+  background-color: rgb(102, 0, 51);
+  /* Change background on hover */
+  color: white;
+  /* Change text color on hover */
+}
+
+/* Optional: You could add any specific styles for form or links here */
+#Home form {
+  text-align: center;
+}
+
+#Home form button {
+  font-weight: bold;
+}

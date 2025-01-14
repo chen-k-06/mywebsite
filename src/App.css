@@ -1,27 +1,76 @@
+/* Global styles */
+/* html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+} */
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 1280px;
 }
 
+/* Add padding for sections and ensure navbar doesn't cover content */
+div {
+  padding: 60px 20px;
+}
+
+/* Apply styles to the wrapper div (app-container) */
+.app-container {
+  padding-top: 80px;
+  /* Adjust padding-top to avoid navbar */
+}
+
+/* Section styles */
+#home,
+#about,
+#services,
+#contact {
+  margin-bottom: 20px;
+  /* Ensure some space between sections */
+}
+
+#home {
+  margin-top: 350px;
+  /* Adjust this value to control the size of the gap */
+  margin-bottom: 100px;
+}
+
+
+/* Logo and card styles */
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Keyframes for animation */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -31,12 +80,4 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
